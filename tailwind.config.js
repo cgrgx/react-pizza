@@ -7,6 +7,9 @@ export default {
     },
 
     extend: {
+      backgroundImage: {
+        "chat-bg": "url('/chat-bg.png')",
+      },
       fontSize: {
         huge: ["80rem", { lineHeight: "1" }],
       },

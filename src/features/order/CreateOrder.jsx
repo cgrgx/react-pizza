@@ -148,8 +148,6 @@ export async function action({ request }) {
     priority: formData.priority === "true",
   };
 
-  console.log(order);
-
   //phone validation
   const errors = {};
   if (!isValidPhone(order.phone)) {
